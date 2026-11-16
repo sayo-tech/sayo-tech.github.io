@@ -14,26 +14,26 @@
 const ME = {
 
   // GitHub username ของคุณ ใช้ดึงรูปโปรไฟล์มาแสดงอัตโนมัติ ไม่ต้องอัปโหลดรูปเอง
-  github: "pyxdv",
+  github: "sayo-tech",
 
   // ชื่อที่ต้องการให้แสดง ใช้ชื่อเล่นได้
-  name: "pyxdv",
+  name: "sayo-citzen477",
 
   // บอกว่าคุณคือใคร สั้น ๆ
-  role: "ผู้สอนวิชาปฏิบัติการวิศวกรรมคอมพิวเตอร์ 1",
+  role: "First-year computer engineering student at Rajamangala University of Technology Isan, Khon Kaen campus.",
 
   // หนึ่งประโยคว่าคุณสนใจสร้างอะไร เขียนให้เจาะจง อย่าเขียนกว้าง ๆ
   // ไม่ดี: "รักการเขียนโปรแกรม"   ดี: "อยากทำระบบรดน้ำต้นไม้ที่ดูพยากรณ์อากาศก่อนรดน้ำ"
-  tagline: "เว็บตัวอย่างประกอบใบงานวิชาปฏิบัติการวิศวกรรมคอมพิวเตอร์ 1",
+  tagline: "I want to develop myself to move into an advanced and stable tech career.",
 
   // แนะนำตัว 2-3 บรรทัด ว่ามาจากไหน สนใจอะไร กำลังจะไปทางไหน
-  about: "หน้านี้ทำจากเว็บตั้งต้นเดียวกับที่นักศึกษาใช้ในวิชาเส้นทางสู่วิศวกรรมคอมพิวเตอร์ ใช้เป็นตัวอย่างในใบงานเรื่อง Git",
+  about: "Hi!, i'm sayo-tech i want to be a software engineer. 🌼🌿",
 
   // กำลังเรียนรู้อะไรอยู่ตอนนี้ ใส่ได้ 2-5 รายการ
   learning: [
-    "พื้นฐานอินเทอร์เน็ตและบริการออนไลน์",
-    "HTML และ CSS",
-    "การใช้ Git และ GitHub",
+    "HTML5, JAVASCRIPT, TYPESCRIPT, and REACT",
+    "Database and Networking",
+    "How to use Github for Job",
   ],
 
   // ผลงาน ปี 1 เทอมแรกยังไม่มีก็ไม่เป็นไร ปล่อยว่างไว้ได้ หน้าเว็บจะขึ้นข้อความให้เอง
@@ -43,11 +43,11 @@ const ME = {
 
   // ช่องทางติดต่อ ใช้ลิงก์สาธารณะเท่านั้น อย่าใส่เบอร์โทรหรืออีเมลส่วนตัว
   links: [
-    { label: "GitHub", url: "https://github.com/pyxdv" },
+    { label: "GitHub", url: "https://github.com/sayo-tech" },
   ],
 
   // ธีมสี เลือกหนึ่งอย่าง: "ocean" | "sunset" | "forest" | "grape" | "mono" | "mono-light"
-  theme: "ocean",
+  theme: "forest",
 
 };
 </script>
@@ -72,7 +72,7 @@ const ME = {
 
 /* ธีมเดียวที่พลิกเป็นพื้นสว่าง จึงต้องเขียนยาวกว่าเพื่อน
    เพราะต้องกลับค่าพื้นหลัง ตัวอักษร เส้น และพื้นการ์ดใหม่ทั้งชุด */
-[data-theme="mono-light"] {
+[data-theme="sunset"] {
   --accent:#334155; --accent-soft:#475569; --glow1:#dbe3ee; --glow2:#e6ebf3;
   --bg:#f7f9fc; --line:#ccd6e4; --text:#0f172a; --muted:#52627d;
   --surface:rgba(15,23,42,.04);
@@ -194,19 +194,19 @@ footer a{ color:var(--accent) }
   <ul class="links" id="links"></ul>
 
   <section>
-    <h2>กำลังเรียนรู้</h2>
+    <h2>Lerning</h2>
     <ul class="learning" id="learning"></ul>
   </section>
 
   <section>
-    <h2>ผลงาน</h2>
+    <h2>Experience</h2>
     <div class="works" id="works"></div>
   </section>
 
   <!-- ค่าทุกตัวในแผงนี้ browser วัดจากการโหลดหน้านี้จริง ไม่ได้เขียนค้างไว้
        เปรียบเทียบกับ DevTools (F12) แท็บ Network ได้ ค่าควรสอดคล้องกัน -->
   <section>
-    <h2>ข้อมูลการเชื่อมต่อของหน้านี้</h2>
+    <h2>Connection information for this page</h2>
     <div class="panel">
       <dl id="netpanel"></dl>
       <p class="hint">กด F12 เลือกแท็บ Network แล้วกด Ctrl+F5 เพื่อเปรียบเทียบค่า</p>
@@ -215,7 +215,7 @@ footer a{ color:var(--accent) }
 
   <footer>
     สร้างด้วย HTML, CSS และ JavaScript · โฮสต์บน GitHub Pages ·
-    <a id="repolink" href="https://github.com">ดูซอร์สโค้ดของหน้านี้</a>
+    <a id="repolink" href="https://github.com/sayo-tech/index.html/blob/main/index.html">ดูซอร์สโค้ดของหน้านี้</a>
   </footer>
 </div>
 
